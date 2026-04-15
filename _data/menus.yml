@@ -5,7 +5,7 @@ main:
   - name: "About"
     url: "/about/"
     weight: 2
-  - name: "Thesis"
+  - name: "Research Projects"
     url: "/thesis/"
     weight: 3
   - name: "Projects"

@@ -26,4 +26,6 @@ bodyClass: page-cv
 
 ## Availability
 
-A full CV and detailed reference list are available upon request. This page will be updated with a downloadable CV link once the PDF is ready for publication.
+A full CV and detailed reference list are available upon request. Download the CV here:
+
+- [CV Victor Pérez (English, 2026)](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/CV_VictorPerez_Eng2026.pdf)
