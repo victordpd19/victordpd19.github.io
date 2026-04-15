@@ -5,11 +5,11 @@ description: About the candidate
 bodyClass: page-about
 ---
 
-I am Víctor David Pérez De Los Ríos, a Mechatronics Engineer and MSc in Artificial Intelligence with 5+ years of experience in digital automation and AI-powered solutions. I have a strong background in deep learning, LLMs, and cloud-native applications on Azure and GCP, combined with a proven interest in robotics research projects focused on visual computing and perception.
+I am Víctor David Pérez De Los Ríos, a Mechatronics Engineer and MSc in Artificial Intelligence with 5+ years of experience in digital automation and AI-powered solutions. I am an engineer in AI with a strong interest in visual computing, perception, and robotics research.
 
 ## Research Focus
 
-- Deep learning for visual perception and ecological monitoring
+- Deep learning for visual perception
 - Visual odometry and navigation for autonomous systems
 - Cloud-native AI pipelines and intelligent automation
 - Reproducible research, technical communication, and applied validation
