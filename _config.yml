@@ -1,4 +1,5 @@
-baseurl: '/victordpd19/'
+baseurl: ""
+url: "https://victordpd19.github.io"
 permalink: pretty
 title: 'Víctor David Pérez De Los Ríos'
 description: 'Academic portfolio and PhD application site for AI, computer vision, and robotics research.'
