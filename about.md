@@ -5,25 +5,23 @@ description: About the candidate
 bodyClass: page-about
 ---
 
-I am Víctor David Pérez De Los Ríos, a researcher with a background in artificial intelligence, computer vision, and mechatronics. My academic work is driven by solving applied challenges in ecological monitoring and autonomous systems, combining deep learning with real-world robotics and sensor data.
+I am Víctor David Pérez De Los Ríos, a Mechatronics Engineer and MSc in Artificial Intelligence with 5+ years of experience in digital automation and AI-powered solutions. I have a strong background in deep learning, LLMs, and cloud-native applications on Azure and GCP, combined with a proven interest in robotics research projects focused on visual computing and perception.
 
 ## Research Focus
 
-- Multi-species detection and counting in dense aerial imagery
-- Visual odometry and navigation for autonomous guided vehicles (AGVs)
-- Attention-based neural architectures for robust field deployment
-- Clear academic communication and reproducible implementation
+- Deep learning for visual perception and ecological monitoring
+- Visual odometry and navigation for autonomous systems
+- Cloud-native AI pipelines and intelligent automation
+- Reproducible research, technical communication, and applied validation
 
 ## Education & Experience
 
-My work includes a master’s thesis in artificial intelligence from Universidad de los Andes and a bachelor’s thesis in mechatronics engineering focused on visual odometry for AGVs. I have experience in research prototyping, technical writing, and presenting results for academic and applied audiences.
+I hold a Master’s in Artificial Intelligence and a Bachelor’s in Mechatronics Engineering. My work spans research prototyping, academic publications, and real-world AI systems, with a focus on robust perception, autonomy, and automation.
 
 ## Academic Approach
 
-I build research systems that are:
+I develop research systems that are:
 
-- grounded in strong theoretical foundations,
-- validated through quantitative evaluation,
-- designed to address practical needs in conservation and automation.
-
-I am seeking doctoral opportunities where I can continue to develop AI systems with measurable impact in ecology, robotics, or intelligent infrastructure.
+- grounded in strong theory and empirical validation
+- designed for real-world deployment and resilience
+- aligned with interdisciplinary impact in robotics, ecology, and intelligent infrastructure

@@ -16,6 +16,8 @@ This work aims to develop a positioning system for autonomous guided vehicles (A
 
 Based on this, five experiments were executed to determine the parameters with the best performance in both the mapping and the localization process. Within the results, the errors of the maps created by the experiments were calculated in order to determine which one had better performance. Finally, conditions and recommendations were generated to be able to scale the algorithms proposed in a real-time holonomic AGV.
 
+The work was evaluated by the academic review committee and deemed to exceed expectations for this level of study. As a result, the project was submitted to the Academic Council and formally granted an honorary mention.
+
 **Keywords:** Visual odometry, SLAM, AGV, RGB-D camera
 
 **Full paper (Spanish):** [Bachelor_VisualOdometry.pdf](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/Bachelor_VisualOdometry.pdf)

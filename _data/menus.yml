@@ -8,12 +8,9 @@ main:
   - name: "Research Projects"
     url: "/thesis/"
     weight: 3
-  - name: "Projects"
-    url: "/projects/"
-    weight: 4
   - name: "CV"
     url: "/cv/"
-    weight: 5
+    weight: 4
   - name: "Contact"
     url: "/contact/"
     weight: 6
