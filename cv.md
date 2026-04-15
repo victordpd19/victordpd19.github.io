@@ -7,19 +7,6 @@ bodyClass: page-cv
 
 # Curriculum Vitae
 
-## Education
+Download the full CV here:
 
-- Master’s in Artificial Intelligence (Universidad de los Andes)
-- Bachelor’s in Mechatronics Engineering
-
-## Technical Skills
-
-- Python, deep learning, computer vision
-- Visual odometry, robotics, sensor integration
-- Research writing, experimental evaluation, academic communication
-
-## Research Interests
-
-- AI for ecological monitoring and conservation
-- Autonomous systems and navigation
-- Attention mechanisms for robust image analysis
+- [CV Victor Pérez (English, 2026)](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/CV_VictorPerez_Eng2026.pdf)
