@@ -1,0 +1,29 @@
+[
+  {
+    "title": "AI for Aerial Ecology",
+    "description": "Deep learning models for robust animal detection and counting in dense aerial imagery.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Robotics & Autonomy",
+    "description": "Visual odometry and navigation methods for autonomous guided vehicles.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Research Communication",
+    "description": "Clear, applied research summaries and scholarly reporting for academic audiences.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

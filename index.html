@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<!--
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Victor David Pérez — Academic Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.about-modal {
+				position: fixed;
+				inset: 0;
+				background: rgba(0, 0, 0, 0.9);
+				z-index: 10000;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				padding: 2rem;
+			}
+			.about-modal.visible {
+				display: flex;
+			}
+			.about-modal .box {
+				max-width: 720px;
+				width: 100%;
+				background: #111;
+				border: 1px solid #444;
+				padding: 2rem;
+				overflow: auto;
+				max-height: calc(100vh - 4rem);
+			}
+			.about-modal h2 {
+				margin-top: 0;
+			}
+			.about-modal .button {
+				margin-top: 1.5rem;
+			}
+			@media screen and (max-width: 736px) {
+				.about-modal { padding: 1rem; }
+				.about-modal .box { padding: 1.5rem; }
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<h1 class="major">Victor David<br />Pérez</h1>
+									<p>Doctoral applicant with a strong foundation in artificial intelligence, computer vision, and robotics. My research is focused on applied perception systems for aerial imagery and autonomous navigation.</p>
+									<ul class="actions special">
+										<li><a href="#" id="open-about" class="button primary color1">About</a></li>
+										<li><a href="#thesis" class="button">Thesis</a></li>
+										<li><a href="#projects" class="button">Projects</a></li>
+										<li><a href="#cv" class="button">Curriculum Vitae</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="images/pic01.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="thesis">
+								<div class="content span-7">
+									<h2 class="major">Master's Thesis</h2>
+									<p><strong>Development of a Deep Learning Model for Counting and Detecting Animals in Dense Herds from Aerial Images.</strong> My thesis extends HerdNet with CBAM attention and Hard Negative Patching to improve multi-species detection and counting in complex aerial environments.</p>
+									<p>The research demonstrates improved class-level precision and validation robustness, with a particular focus on reducing false positives in occluded and noisy scenes.</p>
+									<ul class="actions">
+										<li><a href="documents/Maestria_ThesisWork.pdf" target="_blank" class="button primary">Extended Abstract</a></li>
+										<li><a href="documents/Bachelor_ThesisWork.pdf" target="_blank" class="button">Bachelor Thesis</a></li>
+									</ul>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic02.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color1">
+								<div class="intro joined">
+									<h2 class="major">Research Highlights</h2>
+									<p>My research bridges computer vision and robotics through robust methods in aerial perception, attention-based networks, and data-driven evaluation for field-ready systems.</p>
+								</div>
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li><span class="icon fa-gem"><span class="label">Aerial Perception</span></span></li>
+										<li><span class="icon solid fa-camera-retro"><span class="label">Attention Networks</span></span></li>
+										<li><span class="icon solid fa-cog"><span class="label">Robotic Vision</span></span></li>
+										<li><span class="icon solid fa-paper-plane"><span class="label">Field Deployment</span></span></li>
+										<li><span class="icon solid fa-chart-bar"><span class="label">Experimental Validation</span></span></li>
+										<li><span class="icon solid fa-code"><span class="label">Code Reproducibility</span></span></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left" id="projects">
+								<div class="content span-5">
+									<h2 class="major">Projects</h2>
+									<p>Select projects demonstrate both applied research and software engineering. Streamlit apps illustrate interactive data exploration, while the Mnemosyne refactor emphasizes reproducible code design.</p>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary color2">Streamlit Apps</a></li>
+										<li><a href="#" class="button">Mnemosyne Refactor</a></li>
+									</ul>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel" id="cv">
+								<div class="intro color2">
+									<h2 class="major">Curriculum Vitae</h2>
+									<p>This section will host the academic CV and summary of qualifications once the file is added to the repository.</p>
+								</div>
+								<div class="inner columns aligned">
+									<div class="span-2-75">
+										<h3 class="major">Academic CV</h3>
+										<p>Placeholder for the CV file. Once added to the repository, this link will provide direct access to the curriculum vitae.</p>
+										<ul class="actions">
+											<li><a href="#" class="button primary color2">Curriculum Vitae Placeholder</a></li>
+										</ul>
+									</div>
+									<div class="span-1-25">
+										<h3 class="major">Contact</h3>
+										<ul class="icons">
+											<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+											<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+
+						<!-- Copyright -->
+							<div class="copyright">&copy; Victor David Pérez. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+					</div>
+
+				</div>
+
+			<div id="about-modal" class="about-modal">
+				<div class="box">
+					<h2>About Me</h2>
+					<p>I am a researcher with a master’s background in artificial intelligence, preparing PhD applications for Sweden. My interests include computer vision, aerial animal detection, robotics, and robust deep learning systems for real-world environments.</p>
+					<p>My master’s thesis extends HerdNet with CBAM attention and Hard Negative Patching to improve detection and counting of animals in dense aerial herds. I also have a bachelor’s project in visual odometry for AGV positioning.</p>
+					<p>This page is structured to showcase the extended abstract, project links, and an academic CV section for reviewers and collaborators.</p>
+					<a href="#" id="close-about" class="button">Close</a>
+				</div>
+			</div>
+
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					var open = document.getElementById('open-about');
+					var close = document.getElementById('close-about');
+					var modal = document.getElementById('about-modal');
+					if (open && close && modal) {
+						open.addEventListener('click', function(event) {
+							event.preventDefault();
+							modal.classList.add('visible');
+						});
+						close.addEventListener('click', function(event) {
+							event.preventDefault();
+							modal.classList.remove('visible');
+						});
+						modal.addEventListener('click', function(event) {
+							if (event.target === modal) {
+								modal.classList.remove('visible');
+							}
+						});
+					}
+				});
+			</script>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
