@@ -5,14 +5,14 @@ description: Detailed page for the Bachelor of Science thesis project.
 bodyClass: page-thesis
 ---
 
-# Bachelor of Science Thesis
+# Bachelor of Science Work
 
 ## Sistema de posicionamiento por odometría visual para AGVS
 *(Positioning System for Autonomous Guided Vehicles using Visual Odometry)*
 
 ### Overview
 
-This thesis develops a visual odometry-based positioning system for Autonomous Guided Vehicles (AGVs). It follows Ulrich and Dieter methodologies for component selection, integration testing, and performance validation of the RGB-D sensor and mobile platform.
+This work develops a visual odometry-based positioning system for Autonomous Guided Vehicles (AGVs). It follows Ulrich and Dieter methodologies for component selection, integration testing, and performance validation of the RGB-D sensor and mobile platform.
 
 ### Extended executive summary
 
@@ -40,6 +40,22 @@ Through experiment-driven tuning, the best performing configuration combined Fra
 2. **Odometry workflow** — Placeholder for the visual odometry pipeline diagram.
 3. **Mapping results** — Placeholder for sample map output or localization visualization.
 4. **Performance metrics** — Placeholder for error charts or validation results.
+
+### Visual assets
+
+- ![AGV setup](/images/Thesis/Bachelor_Turtlebot_Foto.jpg)
+- ![Car mapping result](/images/Thesis/Bachelor_Resultados_Carro1.jpeg)
+- ![Point cloud result](/images/Thesis/Bachelor_exp3_pointcloud.png)
+- ![Localization interface](/images/Thesis/Bachelor_exp3_interfaz.png)
+- ![Camera and point cloud](/images/Thesis/Bachelor_Camara_Nube1.png)
+
+### Video assets
+
+- **Post processing optimization** — [Google Drive link](https://drive.google.com/file/d/11icOaHPfBS3w5tmlcRYF_Frhx1nykp2o/view?usp=drive_link)
+- **Mapping** — [Google Drive link](https://drive.google.com/file/d/1tiHhMz7deH2-xiuCvaglV8ac4qV_mAea/view?usp=drive_link)
+- **Localization sample** — [Google Drive link](https://drive.google.com/file/d/15QPQYkhHOKruLKqn8opyaCsP_M9XS_KE/view?usp=drive_link)
+
+> These video demos are linked externally to avoid heavy media rendering on GitHub Pages.
 
 ### Technical details
 
