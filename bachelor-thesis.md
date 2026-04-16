@@ -78,11 +78,6 @@ Through experiment-driven tuning, the best performing configuration combined Fra
 </figure>
 
 <figure style="text-align: center; margin: 20px auto;">
-  <img src="/images/Thesis/Bachelor_exp3_opt2.png" alt="Optimized mapping output" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
-  <figcaption>Optimized map output after pose graph refinement and loop closure.</figcaption>
-</figure>
-
-<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_exp42_2d.png" alt="2D map result" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>2D mapping result used for navigation planning and validation.</figcaption>
 </figure>
