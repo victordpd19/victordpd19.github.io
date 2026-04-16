@@ -7,8 +7,8 @@ bodyClass: page-about
 
 I am Víctor David Pérez De Los Ríos, a Mechatronics Engineer and MSc in Artificial Intelligence with 5+ years of experience in digital automation and AI-powered solutions. I am an engineer in AI with a strong interest in visual computing, perception, and robotics research.
 
-<figure>
-  <img src="/images/VictorAndRobot.jpeg" alt="Victor Me" style="max-height:300px; width:auto; display:block; margin:0 auto;" />
+<figure style="text-align: center; margin: 20px auto;">
+  <img src="/images/VictorAndRobot.jpeg" alt="Victor Me" style="max-height:300px; width:auto; display:inline-block;" />
   <figcaption>Me with my metalic bro.</figcaption>
 </figure>
 
