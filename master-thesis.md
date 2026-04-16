@@ -14,6 +14,8 @@ bodyClass: page-thesis
 
 This work extends the HerdNet architecture for multispecies wildlife detection and counting in aerial imagery. It integrates the Convolutional Block Attention Module (CBAM) and Hard Negative Patching (HNP) into a two-phase training pipeline to improve precision and validation stability in highly complex natural scenes.
 
+This project is based on the original HerdNet research and implementation. The HerdNet repository is available at [https://github.com/Alexandre-Delplanque/HerdNet](https://github.com/Alexandre-Delplanque/HerdNet).
+
 ### Extended executive summary
 
 This work details the conception, implementation, and empirical evaluation of an advanced convolutional architecture based on the HerdNet paradigm, designed for point-based detection and multispecies enumeration within aerial orthophotography (UAVs). The work addresses severe occlusion, appearance ambiguity, uneven illumination, and extreme density in wildlife scenes by combining attention-based feature recalibration with adaptive hard negative sampling.
@@ -38,10 +40,20 @@ The HerdNet+CBAM model delivered measurable improvement over the study baseline,
 
 ### Visual assets
 
-- ![HerdNet CBAM architecture](/images/Thesis/MASTER_Arquitectura_CBAM.png)
-- ![HerdNet architecture](/images/Thesis/MASTER_Arquitectura_Herdnet.png)
-- ![CBAM module diagram](/images/Thesis/MASTER_cbam_arquitectura.png)
-- ![Aerial detection example](/images/Thesis/MASTER_imagen ampliada.jpg)
+<figure>
+  <img src="/images/Thesis/MASTER_Arquitectura_Herdnet.png" alt="HerdNet architecture" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>HerdNet architecture diagram used for feature extraction and detection.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/Thesis/MASTER_cbam_arquitectura.png" alt="CBAM module diagram" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>CBAM attention module integration for channel and spatial attention.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/Thesis/MASTER_imagen ampliada.jpg" alt="Aerial detection example" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>An example aerial image used to validate dense herd detection performance.</figcaption>
+</figure>
 
 > If the master work includes video demos, it is best to use external Drive links for heavy files and keep the GitHub Pages page focused on image previews.
 
