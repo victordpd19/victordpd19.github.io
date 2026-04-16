@@ -49,8 +49,23 @@ Through experiment-driven tuning, the best performing configuration combined Fra
 </figure>
 
 <figure>
-  <img src="/images/Thesis/Bachelor_exp3_pointcloud.png" alt="Point cloud result" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
-  <figcaption>Point cloud reconstruction generated from RGB-D data during mapping.</figcaption>
+  <img src="/images/Thesis/Bachelor_SIGTROVIndustrialPrototype_InternshipDevelopment.jpeg" alt="Industrial prototype development" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>Internship development prototype showing industrial AGV integration.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/Thesis/Bachelor_Camara_IR3.jpg" alt="Infrared camera frame" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>Infrared camera frame used for feature detection and depth sensing.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/Thesis/Bachelor_Camara_Nube1.png" alt="Camera and point cloud" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>Camera image overlaid with extracted point cloud for environment perception.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/Thesis/Bachelor_im_loc3.png" alt="Localization sample" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>Localization sample showing map alignment and pose estimation.</figcaption>
 </figure>
 
 <figure>
@@ -59,8 +74,8 @@ Through experiment-driven tuning, the best performing configuration combined Fra
 </figure>
 
 <figure>
-  <img src="/images/Thesis/Bachelor_Camara_Nube1.png" alt="Camera and point cloud" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
-  <figcaption>Camera image overlaid with extracted point cloud for environment perception.</figcaption>
+  <img src="/images/Thesis/Bachelor_exp3_pointcloud.png" alt="Point cloud result" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>Point cloud reconstruction generated from RGB-D data during mapping.</figcaption>
 </figure>
 
 <figure>
@@ -71,6 +86,11 @@ Through experiment-driven tuning, the best performing configuration combined Fra
 <figure>
   <img src="/images/Thesis/Bachelor_exp42_2d.png" alt="2D map result" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>2D mapping result used for navigation planning and validation.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/Thesis/Bachelor_exp42_sinLoop.png" alt="Mapping without loop closure" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>Mapping result without loop closure, showing raw pose drift and alignment errors.</figcaption>
 </figure>
 
 ### Video assets

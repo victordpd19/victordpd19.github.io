@@ -55,7 +55,10 @@ The HerdNet+CBAM model delivered measurable improvement over the study baseline,
   <figcaption>An example aerial image used to validate dense herd detection performance.</figcaption>
 </figure>
 
-> If the master work includes video demos, it is best to use external Drive links for heavy files and keep the GitHub Pages page focused on image previews.
+<figure>
+  <img src="/images/Thesis/MASTER_MaiaStreamlit.png" alt="Maia Streamlit UI" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
+  <figcaption>UI screenshot of the Maia Streamlit application used for model deployment and interaction.</figcaption>
+</figure>
 
 ### Technical details
 
@@ -64,10 +67,10 @@ The HerdNet+CBAM model delivered measurable improvement over the study baseline,
 - Techniques: attention mechanisms, hard negative mining, two-phase training
 - Keywords: object detection, animal counting, HerdNet, deep learning, aerial images, CBAM, DLA
 
-### Repositorio del proyecto
+### Project repository
 
-- [Código backend, frontend y despliegue con Streamlit](https://github.com/victordpd19/maia_proyecto_final) — incluye backend, frontend y despliegue con Streamlit.
+- [Backend, frontend, and Streamlit deployment (Spanish)](https://github.com/victordpd19/maia_proyecto_final)
 
 ### Full paper
 
-- [Master_HerdnetCBAM.pdf](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/Master_HerdnetCBAM.pdf)
+- [Master_HerdnetCBAM.pdf](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/Master_HerdnetCBAM.pdf) — paper in Spanish
