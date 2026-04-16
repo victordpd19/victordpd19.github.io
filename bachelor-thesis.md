@@ -16,7 +16,7 @@ This work develops a visual odometry-based positioning system for Autonomous Gui
 
 ### Extended executive summary
 
-The work presents the design, calibration, and validation of an inertial-visual navigation framework tailored for AGVs operating without reliable GPS. A Visual SLAM architecture was built using ROS, combining RGB-D sensing, feature-based odometry, and pose graph optimization to reduce drift and improve spatial accuracy in industrial navigation scenarios.
+The work presents the design, calibration, and validation of an visual navigation framework tailored for AGVs operating without reliable GPS. A Visual SLAM architecture was built using ROS, combining RGB-D sensing, feature-based odometry, kinematic constraints and pose graph optimization to reduce drift and improve spatial accuracy in industrial navigation scenarios.
 
 ### Key contributions
 
@@ -43,52 +43,52 @@ Through experiment-driven tuning, the best performing configuration combined Fra
 
 ### Visual assets
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_Turtlebot_Foto.jpg" alt="AGV setup" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>AGV platform with RGB-D sensor and onboard computing module for visual odometry.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_SIGTROVIndustrialPrototype_InternshipDevelopment.jpeg" alt="Industrial prototype development" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Internship development prototype showing industrial AGV integration.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_Camara_IR3.jpg" alt="Infrared camera frame" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Infrared camera frame used for feature detection and depth sensing.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_Camara_Nube1.png" alt="Camera and point cloud" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Camera image overlaid with extracted point cloud for environment perception.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_im_loc3.png" alt="Localization sample" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Localization sample showing map alignment and pose estimation.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_exp3_interfaz.png" alt="Localization interface" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Localization and mapping interface showing live pose tracking and map state.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_exp3_pointcloud.png" alt="Point cloud result" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Point cloud reconstruction generated from RGB-D data during mapping.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_exp3_opt2.png" alt="Optimized mapping output" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Optimized map output after pose graph refinement and loop closure.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_exp42_2d.png" alt="2D map result" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>2D mapping result used for navigation planning and validation.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/Bachelor_exp42_sinLoop.png" alt="Mapping without loop closure" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>Mapping result without loop closure, showing raw pose drift and alignment errors.</figcaption>
 </figure>

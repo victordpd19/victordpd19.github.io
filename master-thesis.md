@@ -40,22 +40,21 @@ The HerdNet+CBAM model delivered measurable improvement over the study baseline,
 
 ### Visual assets
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/MASTER_Arquitectura_Herdnet.png" alt="HerdNet architecture" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>HerdNet architecture diagram used for feature extraction and detection.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/MASTER_cbam_arquitectura.png" alt="CBAM module diagram" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>CBAM attention module integration for channel and spatial attention.</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/MASTER_imagen ampliada.jpg" alt="Aerial detection example" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>An example aerial image used to validate dense herd detection performance.</figcaption>
 </figure>
-
-<figure>
+<figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/MASTER_MaiaStreamlit.png" alt="Maia Streamlit UI" style="max-height:260px; width:auto; display:block; margin:0 auto;" />
   <figcaption>UI screenshot of the Maia Streamlit application used for model deployment and interaction.</figcaption>
 </figure>
