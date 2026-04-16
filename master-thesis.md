@@ -12,25 +12,29 @@ bodyClass: page-thesis
 
 ### Overview
 
-This thesis extends the HerdNet architecture to support multispecies wildlife detection and counting in aerial imagery. It integrates the Convolutional Block Attention Module (CBAM) and a Hard Negative Patching (HNP) strategy into a two-phase training pipeline, improving precision and validation stability in complex visual environments.
+This thesis extends the HerdNet architecture for multispecies wildlife detection and counting in aerial imagery. It integrates the Convolutional Block Attention Module (CBAM) and Hard Negative Patching (HNP) into a two-phase training pipeline to improve precision and validation stability in highly complex natural scenes.
 
-### Key contributions
+### Extended executive summary
 
-- Attention-enhanced deep learning model for dense herd detection
-- Improved per-class precision and validation robustness
-- Hard Negative Patching to reduce false positives
-- First documented combination of HerdNet and CBAM for aerial wildlife analysis
+This dissertation details the conception, implementation, and empirical evaluation of an advanced convolutional architecture based on the HerdNet paradigm, designed for point-based detection and multispecies enumeration within aerial orthophotography (UAVs). The work addresses severe occlusion, appearance ambiguity, uneven illumination, and extreme density in wildlife scenes by combining attention-based feature recalibration with adaptive hard negative sampling.
+
+### Key methodological contributions
+
+- **Attention augmentation with CBAM:** Integrated sequential channel and spatial attention modules to recalibrate intermediate feature maps and improve discrimination of animals from background clutter.
+- **Backbone model analysis:** Compared DLA-34 and DLA-60 backbones to identify overfitting thresholds and demonstrate that larger models do not always yield better generalization without proper regularization.
+- **Hard Negative Patching:** Applied HNP to emphasize visually deceptive background patches, reducing false positives among ambiguous species and sharpening model decision boundaries.
+- **Domain-specific validation:** Calibrated architecture complexity to the aerial animal detection domain, emphasizing parsimonious design over excessive parameter growth.
 
 ### Results and impact
 
-The model showed improved performance over the baseline implementation in this study, particularly in difficult background regions and multi-species scenes. The work establishes a solid foundation for future research in ecological monitoring and autonomous perception.
+The HerdNet+CBAM model delivered measurable improvement over the study baseline, particularly in difficult background regions and multi-species scenes. It achieved an F1-score of 0.704 on the evaluation set and established a strong foundation for future work in autonomous perception for wildlife monitoring.
 
 ### Media placeholders
 
 1. **Architecture diagram** — Placeholder for the HerdNet+CBAM model architecture illustration.
 2. **Training pipeline** — Placeholder for the two-phase training and hard negative patching workflow.
 3. **Detection examples** — Placeholder for sample aerial image outputs and predicted bounding regions.
-4. **Evaluation chart / video** — Placeholder for precision/recall visualizations or a short demo video.
+4. **Evaluation chart / video** — Placeholder for precision/recall visualizations or a short demo.
 
 ### Technical details
 
