@@ -14,11 +14,11 @@ bodyClass: page-cv
 ## Education
 
 - Master of Science in Artificial Intelligence, Universidad de los Andes
-- Bachelor of Science in Mechatronics Engineering
+- Bachelor of Science in Mechatronics Engineering, graduated with Honors
 
 ## Technical Skills
 
-- Python, C++, ROS, Deep Learning, Computer Vision
+- Python, ROS, Deep Learning, Computer Vision
 - Visual odometry, perception systems, and autonomous navigation
 - LLM workflows, agentic systems, and applied AI orchestration
 - UiPath, Azure, GCP, and cloud-enabled automation tools
@@ -26,5 +26,5 @@ bodyClass: page-cv
 ## Languages
 
 - Spanish (native)
-- English (professional)
-- German (working proficiency)
+- English (professional, C1 toefl certified)
+- German (elementary knowledge, A2)
