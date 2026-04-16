@@ -5,7 +5,7 @@ description: About the candidate
 bodyClass: page-about
 ---
 
-I am Víctor David Pérez De Los Ríos, a Mechatronics Engineer and MSc in Artificial Intelligence with 5+ years of experience in digital automation and AI-powered solutions. I have a strong interest in ML, visual computing, perception, and robotics research.
+I am Víctor, a Mechatronics Engineer and MSc in Artificial Intelligence with 5+ years of experience in digital automation and AI-powered solutions. I have a strong interest in ML, visual computing, perception, and robotics research.
 
 <figure style="text-align: center; margin: 20px auto;">
   <img src="/images/VictorAndRobot.jpeg" alt="Victor Me" style="max-height:300px; width:auto; display:inline-block;" />
