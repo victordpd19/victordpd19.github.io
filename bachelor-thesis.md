@@ -1,11 +1,11 @@
 ---
-title: Bachelor of Science Thesis
+title: Bachelor of Science Thesis (Extended Abstract)
 layout: page
 description: Detailed page for the Bachelor of Science thesis project.
 bodyClass: page-thesis
 ---
 
-# Bachelor of Science Work
+# Bachelor of Science Thesis (Extended Abstract)
 
 ## Sistema de posicionamiento por odometría visual para AGVS
 *(Positioning System for Autonomous Guided Vehicles using Visual Odometry)*

@@ -1,11 +1,11 @@
 ---
-title: Master of Science Thesis
+title: Master Of Science Thesis (Extended Abstract)
 layout: page
 description: Detailed page for the Master of Science thesis project.
 bodyClass: page-thesis
 ---
 
-# Master of Science Work
+# Master Of Science Thesis (Extended Abstract)
 
 ## Desarrollo de un modelo de Deep Learning para el conteo y detección de animales en manadas densas a partir de imágenes aéreas
 *(Development of a Deep Learning model for the counting and detection of animals in dense herds from aerial images)*

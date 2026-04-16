@@ -2,7 +2,7 @@
 title: Academic Portfolio
 layout: home
 description: Academic portfolio for PhD applications in AI, computer vision, and robotics.
-intro_image: "images/illustrations/reading.svg"
+intro_image: "images/illustrations/landingrobot.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false
