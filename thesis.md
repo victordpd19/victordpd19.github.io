@@ -22,6 +22,8 @@ The work was evaluated by the academic review committee and deemed to exceed exp
 
 **Full paper (Spanish):** [Bachelor_VisualOdometry.pdf](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/Bachelor_VisualOdometry.pdf)
 
+Learn more on the dedicated bachelor thesis page: [Bachelor of Science Thesis]({{ "/bachelor-thesis/" | relative_url }})
+
 ## Master of Science in Artificial Intelligence
 ### Desarrollo de un modelo de Deep Learning para el conteo y detección de animales en manadas densas a partir de imágenes aéreas
 *(Development of a Deep Learning model for the counting and detection of animals in dense herds from aerial images)*
@@ -34,3 +36,5 @@ These findings position HerdNet+CBAM as a viable and promising alternative for a
 **Keywords:** Object detection, animal counting, HerdNet, deep learning, aerial images, CBAM, DLA
 
 **Full paper (Spanish):** [Master_HerdnetCBAM.pdf](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/Master_HerdnetCBAM.pdf)
+
+Learn more on the dedicated master thesis page: [Master of Science Thesis]({{ "/master-thesis/" | relative_url }})

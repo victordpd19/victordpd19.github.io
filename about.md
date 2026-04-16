@@ -11,8 +11,8 @@ I am Víctor David Pérez De Los Ríos, a Mechatronics Engineer and MSc in Artif
 
 - Deep learning for visual perception
 - Visual odometry and navigation for autonomous systems
-- Cloud-native AI pipelines and intelligent automation
-- Reproducible research, technical communication, and applied validation
+- Agentic workflows and LLM orchestration for autonomous systems
+- Reproducible technical communication and applied validation
 
 ## Education & Experience
 
@@ -20,8 +20,8 @@ I hold a Master’s in Artificial Intelligence and a Bachelor’s in Mechatronic
 
 ## Academic Approach
 
-I develop research systems that are:
+I develop engineering systems that are:
 
 - grounded in strong theory and empirical validation
 - designed for real-world deployment and resilience
-- aligned with interdisciplinary impact in robotics, ecology, and intelligent infrastructure
+- aligned with interdisciplinary impact in robotics and intelligent infrastructure
