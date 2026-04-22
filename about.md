@@ -5,7 +5,7 @@ description: About the candidate
 bodyClass: page-about
 ---
 
-I am Víctor, a Mechatronics Engineer and MSc in Artificial Intelligence with 5+ years of experience in digital automation and AI-powered solutions. I have a strong interest in ML, visual computing, perception, and robotics research.
+I am a Mechatronics Engineer and MSc in Artificial Intelligence with a research background in visual computing, robotics perception, and autonomous systems. I spent two years as a research assistant at AVRIS (Visual Computing and Robotics group, Universidad EIA), where my undergraduate thesis on visual odometry for AGVs received an honorary mention, and completed a master's project on animal detection in dense aerial scenes. I subsequently spent five years deploying AI and intelligent automation solutions in production environments, developing a firsthand understanding of where autonomous decision-making breaks down when humans, uncertainty, and real business constraints collide. I am now seeking to return to research to address that problem at a principled level.
 
 <figure style="text-align: center; margin: 20px auto;">
   <img src="/images/VictorAndRobot.jpeg" alt="Victor Me" style="max-height:300px; width:auto; display:inline-block;" />
