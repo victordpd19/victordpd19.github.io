@@ -40,5 +40,3 @@ SIGTROV GT is a holonomic Autonomous Guided Vehicle (AGV) designed and physicall
 </div>
 
 ### About the Avris Group
-
-*Placeholder: add a brief description of the Avris research group, its focus, and your role within the team.*
