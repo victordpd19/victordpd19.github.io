@@ -30,13 +30,6 @@ This work details the conception, implementation, and empirical evaluation of an
 
 The HerdNet+CBAM model delivered measurable improvement over the study baseline, particularly in difficult background regions and multi-species scenes. It achieved an F1-score of 0.704 on the evaluation set and established a strong foundation for future work in autonomous perception for wildlife monitoring.
 
-### Media placeholders
-
-1. **Architecture diagram** — Placeholder for the HerdNet+CBAM model architecture illustration.
-2. **Training pipeline** — Placeholder for the two-phase training and hard negative patching workflow.
-3. **Detection examples** — Placeholder for sample aerial image outputs and predicted bounding regions.
-4. **Evaluation chart / video** — Placeholder for precision/recall visualizations or a short demo.
-
 ### Visual assets
 
 <figure style="text-align: center; margin: 20px auto;">

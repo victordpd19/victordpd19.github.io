@@ -33,13 +33,6 @@ The system integrates an Intel RealSense D435i camera with an embedded NVIDIA Je
 
 Through experiment-driven tuning, the best performing configuration combined Frame-to-Frame odometry, feature-based matching, holonomic constraints, and ArUco marker support. This approach reduced 3D reconstruction RMSE to approximately 0.038 meters and demonstrated viable scalability for industrial AGV applications.
 
-### Media placeholders
-
-1. **AGV hardware setup** — Placeholder for the vehicle and RGB-D camera configuration.
-2. **Odometry workflow** — Placeholder for the visual odometry pipeline diagram.
-3. **Mapping results** — Placeholder for sample map output or localization visualization.
-4. **Performance metrics** — Placeholder for error charts or validation results.
-
 ### Visual assets
 
 <figure style="text-align: center; margin: 20px auto;">
