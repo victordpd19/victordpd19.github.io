@@ -97,3 +97,4 @@ Through experiment-driven tuning, the best performing configuration combined Fra
 ### Full paper
 
 - [Bachelor_VisualOdometry.pdf](https://github.com/victordpd19/victordpd19.github.io/blob/main/documents/Bachelor_VisualOdometry.pdf)
+- [Official institutional repository – Universidad EIA](https://repository.eia.edu.co/entities/publication/d0d9a961-22f8-46a4-bb4c-2f431e03d5db)
