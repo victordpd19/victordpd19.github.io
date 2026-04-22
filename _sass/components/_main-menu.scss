@@ -10,6 +10,7 @@
     > li {
       list-style: none;
       font-size: 1rem;
+      position: relative;
       > a {
         padding: 10px 12px 10px 12px;
         display: inline-block;
@@ -27,6 +28,67 @@
           &:hover {
             text-decoration: none;
             transition: all 225ms ease-in 0s;
+          }
+        }
+      }
+
+      // Dropdown parent item
+      &.has-dropdown {
+        > .dropdown-label {
+          padding: 10px 12px;
+          display: inline-flex;
+          align-items: center;
+          gap: 4px;
+          font-weight: normal;
+          color: $primary;
+          cursor: default;
+          user-select: none;
+          .dropdown-caret {
+            transition: transform 0.2s ease;
+          }
+        }
+        &.active > .dropdown-label {
+          font-weight: bold;
+        }
+        .dropdown-menu-list {
+          display: none;
+          position: absolute;
+          top: calc(100% + 2px);
+          left: 0;
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 4px;
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+          list-style: none;
+          padding: 6px 0;
+          margin: 0;
+          min-width: 200px;
+          z-index: 100;
+          li {
+            list-style: none;
+            a {
+              display: block;
+              padding: 8px 18px;
+              font-size: 0.95rem;
+              color: $primary;
+              text-decoration: none;
+              white-space: nowrap;
+              &:hover {
+                background: rgba(0, 0, 0, 0.05);
+                text-decoration: none;
+              }
+            }
+            &.active > a {
+              font-weight: bold;
+            }
+          }
+        }
+        &:hover {
+          > .dropdown-label .dropdown-caret {
+            transform: rotate(180deg);
+          }
+          .dropdown-menu-list {
+            display: block;
           }
         }
       }

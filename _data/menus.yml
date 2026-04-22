@@ -6,8 +6,14 @@ main:
     url: "/about/"
     weight: 2
   - name: "Research Projects"
-    url: "/thesis/"
     weight: 3
+    children:
+      - name: "Bachelor Thesis"
+        url: "/bachelor-thesis/"
+      - name: "Master Thesis"
+        url: "/master-thesis/"
+      - name: "Avris (Bachelor Research)"
+        url: "/avris/"
   - name: "CV"
     url: "/cv/"
     weight: 4

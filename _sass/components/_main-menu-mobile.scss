@@ -61,6 +61,45 @@
           opacity: 0.8;
         }
       }
+
+      // Dropdown group in mobile overlay
+      &.has-dropdown-mobile {
+        padding-bottom: 4px;
+        .mobile-group-label {
+          display: block;
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 0.55em;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+          padding-bottom: 4px;
+          cursor: default;
+          user-select: none;
+        }
+        .mobile-sub-menu {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          li {
+            display: block;
+            opacity: 1;
+            padding: 4px 0;
+            a {
+              font-size: 0.75em;
+              color: #ffffff;
+              text-decoration: none;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+            &.active > a {
+              font-weight: bold;
+            }
+          }
+        }
+        &.active .mobile-group-label {
+          color: rgba(255, 255, 255, 0.9);
+        }
+      }
     }
   }
 }

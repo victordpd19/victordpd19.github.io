@@ -2,9 +2,28 @@
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
   <ul>
     {% for item in mainmenu %}
+    {% if item.children %}
+      {% assign is_child_active = false %}
+      {% for child in item.children %}
+        {% if child.url == page.url %}
+          {% assign is_child_active = true %}
+        {% endif %}
+      {% endfor %}
+    <li class="has-dropdown{% if is_child_active %} active{% endif %}">
+      <span class="dropdown-label">{{ item.name }} <svg class="dropdown-caret" xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg></span>
+      <ul class="dropdown-menu-list">
+        {% for child in item.children %}
+        <li class="{% if child.url == page.url %}active{% endif %}">
+          <a href="{{ child.url | relative_url }}">{{ child.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% else %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>

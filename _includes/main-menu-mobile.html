@@ -2,9 +2,28 @@
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
   <ul>
     {% for item in mainmenu %}
+    {% if item.children %}
+      {% assign is_child_active = false %}
+      {% for child in item.children %}
+        {% if child.url == page.url %}
+          {% assign is_child_active = true %}
+        {% endif %}
+      {% endfor %}
+    <li class="has-dropdown-mobile{% if is_child_active %} active{% endif %}">
+      <span class="mobile-group-label">{{ item.name }}</span>
+      <ul class="mobile-sub-menu">
+        {% for child in item.children %}
+        <li class="{% if child.url == page.url %}active{% endif %}">
+          <a href="{{ child.url | relative_url }}">{{ child.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% else %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>
