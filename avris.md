@@ -31,8 +31,8 @@ SIGTROV GT is a holonomic Autonomous Guided Vehicle (AGV) designed and physicall
 
 #### Video: SIGTROV GT System Demo
 
-<div style="text-align: center; margin: 24px auto; max-width: 720px;">
-  <video controls style="width:100%; border-radius:6px; box-shadow: 0 2px 12px rgba(0,0,0,0.15);">
+<div style="text-align: center; margin: 24px auto;">
+  <video controls style="max-height:500px; width:auto; border-radius:6px; box-shadow: 0 2px 12px rgba(0,0,0,0.15);">
     <source src="/images/Thesis/AVRIS_Sigtrov.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
