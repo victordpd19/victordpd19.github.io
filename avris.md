@@ -1,18 +1,16 @@
 ---
-title: Avris — Research During Bachelor
+title: Avris Research During Bachelor
 layout: page
 description: Applied research projects developed during the Bachelor of Science in Mechatronics, in collaboration with the Avris research group.
 bodyClass: page-thesis
 permalink: /avris/
 ---
 
-## Avris — Research Projects During Bachelor of Science
+## Avris Research Projects During Bachelor of Science
 
 This page documents applied research and development work carried out during the Bachelor of Science in Mechatronics in collaboration with the **Avris** research group. These projects span areas including robotics, computer vision, and sensor integration, and represent hands-on work alongside academic formation.
 
----
-
-### SIGTROV GT — Autonomous Guided Vehicle Design and Prototyping
+### SIGTROV GT: Autonomous Guided Vehicle Design and Prototyping
 
 **Area:** Robotics / Mechanical Design / Autonomous Systems
 
@@ -23,7 +21,7 @@ SIGTROV GT is a holonomic Autonomous Guided Vehicle (AGV) designed and physicall
 
 <figure style="text-align: center; margin: 20px auto;">
   <img src="/images/Thesis/AVRIS_sigtrov_gt_cad.jpeg" alt="SIGTROV GT CAD renders" style="max-height:340px; width:auto; display:block; margin:0 auto;" />
-  <figcaption>Four-view CAD renders of the SIGTROV GT platform — front, side, top, and perspective — showing the holonomic omnidirectional wheel configuration and dual-institution branding (EIA / AMCO).</figcaption>
+  <figcaption>Four-view CAD renders of the SIGTROV GT platform showing front, side, top, and perspective views of the holonomic omnidirectional wheel configuration and dual-institution branding (EIA / AMCO).</figcaption>
 </figure>
 
 <figure style="text-align: center; margin: 20px auto;">
@@ -31,7 +29,7 @@ SIGTROV GT is a holonomic Autonomous Guided Vehicle (AGV) designed and physicall
   <figcaption>Physical prototype of the SIGTROV AGV platform, showing the fabricated blue and white enclosure with mecanum wheels mounted and onboard electronics integrated.</figcaption>
 </figure>
 
-#### Video — SIGTROV GT System Demo
+#### Video: SIGTROV GT System Demo
 
 <div style="text-align: center; margin: 24px auto; max-width: 720px;">
   <video controls style="width:100%; border-radius:6px; box-shadow: 0 2px 12px rgba(0,0,0,0.15);">
@@ -41,8 +39,6 @@ SIGTROV GT is a holonomic Autonomous Guided Vehicle (AGV) designed and physicall
   <p style="margin-top: 8px; font-size: 0.9rem; color: #666;">SIGTROV GT demonstration video.</p>
 </div>
 
----
-
 ### About the Avris Group
 
-*Placeholder — add a brief description of the Avris research group, its focus, and your role within the team.*
+*Placeholder: add a brief description of the Avris research group, its focus, and your role within the team.*
